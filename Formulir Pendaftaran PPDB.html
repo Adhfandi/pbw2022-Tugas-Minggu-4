@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran PPDB</title>
+    <!--CSS Form-->
+    <link rel="stylesheet" href="style.css">
+    <!--CSS Form End-->
+</head>
+<body>
+    <h2>FORMULIR PPDB JALUR ZONASI TAHUN 2022</h2>
+
+    <!--Form-->
+    <form class="form" name="fmhs" action="proses.php" method="post">
+        <table class="table">
+            <tr>
+                <td class="td-nomor">Nomor</td>
+                <td class="td-info">INFO PENDAFTARAN</td>
+            </tr>
+            <tr>
+                <td class="td-no1" align="center">1</td>
+                <td class="td-nisn">NISN
+                    <input class="input-nisn" type="number" name="f-nisn" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-no2" align="center">2</td>
+                <td clas="td-asal-sekolah">Asal Sekolah
+                    <input class="input-asal-sekolah" type=" text" name="f-asal-sekolah" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-no3" align="center">3</td>
+                <td class="td-tahun-lulus">Tahun Lulus
+                    <input class="input-tahun-lulus" type="date" name="f-tahun-lulus" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-data-calon-peserta" colspan="2">DATA CALON PESERTA</td>
+            </tr>
+            <tr>
+                <td class="td-no6" align="center">6</td>
+                <td class="td-nama-lengkap">Nama Lengkap
+                    <input class="input-nama-lengkap" type="text" name="f-nama-lengkap" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-no7" align="center">7</td>
+                <td class="td-nik">NIK
+                    <input class="input-nik" type="number" name="f-nik" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-no8" align="center">8</td>
+                <td class="td-tempat-tangggal-lahir">Tempat / Tanggal Lahir
+                    <input class="input-tempat-tanggal-lahir" type="text" name="f-tempat-lahir" required> / <input type="date" name="f-tanggal-lahir" required>
+                     Umur : <input class="input-tahun" type="number" name="f-umur-tahun" required>Tahun,
+                    <input class="input-bulan" type="number" name="f-umur-bulan" required>Bulan
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="td-foto-copy-akte-kelahiran">Foto Copy Akte Kelahiran Yang Telah Terlegalisasi (dilampirkan) 
+                    <input type="file" name="f-file" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-no9" align="center">9</td>
+                <td class="td-jenis-kelamin">Jenis Kelamin
+                    <input class="input-jenis-kelamin" type="radio" name="gender" value="pria"> Pria 
+                    <input type="radio" name="gender" value="wanita"> wanita
+                </td>
+            </tr>
+            <tr>
+                <td class="td-no10" align="center">10</td>
+                <td class="td-alamat">Alamat
+                    <input class="input-alamat" type="text" name="f-alamat" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-no11" align="center">11</td>
+                <td class="td-desa-kel">Desa / Kel.
+                    <input class="input-desa-kel" type="text" name="f-desa-kel" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-no12" align="center">12</td>
+                <td class="td-kecamatan">Kecamatan
+                    <input class="input-kecamatan" type="text" name="f-kecamatan" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-no13" align="center">13</td>
+                <td class="td-kabupaten">Kabupaten
+                    <input class="input-kabupaten" type="text" name="f-kabupaten" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-no14" align="center">14</td>
+                <td class="td-provinsi">Provinsi
+                    <input class="input-provinsi" type="text" name="f-provinsi" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-no15" align="center">15</td>
+                <td class="td-email-aktif">Email Aktif
+                    <input class="input-email-aktif" type="text" name="f-email-aktif" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-data-ortu" colspan="2">DATA ORANG TUA</td>
+            </tr>
+            <tr>
+                <td class="td-no16" align="center">16</td>
+                <td class="td-nomor-kartu-keluarga">Nomor Kartu Keluarga
+                    <input class="input-nomor-kartu-keluarga" type="number" name="f-nomor-kartu-keluarga" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="ttd-no17" align="center">17</td>
+                <td class="td-nama-ayah-kandung">Nama Ayah Kandung
+                    <input class="input-nama-ayah-kandung" type="text" name="f-nama-ayah-kandung" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-no18" align="center">18</td>
+                <td class="td-agama-ayah">Agama
+                <select class="input-agama-ayah" name="f-agama-ayah" id="" required>
+                    <option value="">Pilih Agama</option>
+                    <option value="Islam">Islam</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Katolik">Katolik</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Buddha">Buddha</option>
+                    <option value="Khonghucu">Khonghucu</option>
+                    <option value="Other">Other</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-no19" align="center">19</td>
+                <td class="td-pekerjaan-ayah">Pekerjaan
+                    <input class="input-pekerjaan-ayah" type="text" name="f-pekerjaan-ayah" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-no20" align="center">20</td>
+                <td class="td-nama-ibu-kandung">Nama Ibu Kandung
+                    <input class="input-nama-ibu-kandung" type="text" name="f-nama-ibu-kandung" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-no21" align="center">21</td>
+                <td class="td-agama-ibu">Agama
+                <select class="input-agama-ibu" name="f-agama-ibu" id="" required>
+                    <option value="">Pilih Agama</option>
+                    <option value="Islam">Islam</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Katolik">Katolik</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Buddha">Buddha</option>
+                    <option value="Khonghucu">Khonghucu</option>
+                    <option value="Other">Other</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-no22" align="center">22</td>
+                <td class="td-pekerjaan-ibu">Pekerjaan
+                    <input class="input-pekerjaan-ibu" type="text" name="f-pekerjaan-ibu" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-no23" align="center">23</td>
+                <td class="td-alamat-orang-tua">Alamat Orang Tua
+                    <input class="input-alamat-orang-tua" type="text" name="f-alamat-orang-tua" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-no24" align="center">24</td>
+                <td class="td-desa-kel-ortu">Desa / Kel.
+                    <input class="input-desa-kel-ortu" type="text" name="f-desa-kel-ortu" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-no25" align="center">25</td>
+                <td class="td-kecamatan-ortu">Kecamatan
+                    <input class="input-kecamatan-ortu" type="text" name="f-kecamatan-ortu" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="26" align="center">26</td>
+                <td class="td-kabupaten-ortu">Kabupaten
+                    <input class="input-kabupaten-ortu" type="text" name="f-kabupaten-ortu" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="27" align="center">27</td>
+                <td class="td-provinsi-ortu">Provinsi
+                    <input class="input-provinsi-ortu" type="text" name="f-provinsi-ortu" required>
+                </td>
+            </tr>
+        </table>
+
+        <!--Submit Button-->
+        <input class="submit-button" type="submit" name="f-submit">
+        <input type="hidden" name="fhide" value="s3cr3t">
+        <!--Submit Button End-->
+    </form>
+    <!--Form End-->
+</body>
+</html>

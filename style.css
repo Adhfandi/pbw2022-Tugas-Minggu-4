@@ -1,0 +1,380 @@
+body {
+    background-color:  rgb(254, 247, 229);
+}
+
+.form {
+    outline-style: none;
+}
+
+.table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.td-nomor {
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+.submit-button {
+    background-color: gray;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    color: white;
+}
+
+/*Sub Form*/
+.td-info {
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+.td-data-calon-peserta {
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+.td-data-ortu {
+    border: 1px solid black;
+    font-weight: bold;
+}
+/*Sub Form End*/
+
+/*Nomor*/
+.td-no1 {
+    border: 1px solid black;
+}
+
+.td-no2 {
+    border: 1px solid black;
+}
+
+.td-no3 {
+    border: 1px solid black;
+}
+
+.td-no6 {
+    border: 1px solid black;
+}
+
+.td-no7 {
+    border: 1px solid black;
+}
+
+.td-no8 {
+    border: 1px solid black;
+}
+
+.td-no9 {
+    border: 1px solid black; 
+}
+
+.td-no10 {
+    border: 1px solid black;
+}
+
+.td-no11 {
+    border: 1px solid black;
+}
+
+.td-no12 {
+    border: 1px solid black;
+}
+
+.td-no13 {
+    border: 1px solid black;
+}
+
+.td-no14 {
+    border: 1px solid black;
+}
+
+.td-no15 {
+    border: 1px solid black;
+}
+
+.td-no16 {
+    border: 1px solid black;
+}
+
+.td-no17 {
+    border: 1px solid black;
+}
+
+.td-no18 {
+    border: 1px solid black;
+}
+
+.td-no19 {
+    border: 1px solid black;
+}
+
+.td-no20 {
+    border: 1px solid black;
+}
+
+.td-no21 {
+    border: 1px solid black;
+}
+
+.td-no22 {
+    border: 1px solid black;
+}
+
+.td-no23 {
+    border: 1px solid black;
+}
+
+.td-no24 {
+    border: 1px solid black;
+}
+
+.td-no25 {
+    border: 1px solid black;
+}
+
+.td-no26 {
+    border: 1px solid black;
+}
+
+.td-no27 {
+    border: 1px solid black;
+}
+/*Nomor End*/
+
+/*Info Data*/
+.td-nisn {
+    border: 1px solid black;
+}
+
+.td-asal-sekolah {
+    border: 1px solid black;
+}
+
+.td-tahun-lulus {
+    border: 1px solid black;
+}
+
+.td-nama-lengkap {
+    border: 1px solid black;
+}
+
+.td-nik {
+    border: 1px solid black;
+}
+
+.td-tempat-tangggal-lahir {
+    border: 1px solid black;
+}
+
+.input-tahun {
+    width: 30px;
+}
+
+.input-bulan {
+    width: 30px;
+}
+
+.td-foto-copy-akte-kelahiran {
+    border: 1px solid black;
+}
+
+.td-jenis-kelamin {
+    border: 1px solid black;
+}
+
+.td-alamat {
+    border: 1px solid black;
+}
+
+.td-desa-kel {
+    border: 1px solid black;
+    text-indent: 130px;
+}
+
+.td-kecamatan {
+    border: 1px solid black;
+    text-indent: 130px;
+}
+
+.td-kabupaten {
+    border: 1px solid black;
+    text-indent: 130px;
+}
+
+.td-provinsi {
+    border: 1px solid black;
+    text-indent: 130px;
+}
+
+.td-email-aktif {
+    border: 1px solid black;
+}
+
+.td-nomor-kartu-keluarga {
+    border: 1px solid black;
+}
+
+.td-nama-ayah-kandung {
+    border: 1px solid black;
+}
+
+.td-agama-ayah {
+    border: 1px solid black;
+}
+
+.td-pekerjaan-ayah {
+    border: 1px solid black;
+}
+
+.td-nama-ibu-kandung {
+    border: 1px solid black;
+}
+
+.td-agama-ibu {
+    border: 1px solid black;
+}
+
+.td-pekerjaan-ibu {
+    border: 1px solid black;
+}
+
+.td-alamat-orang-tua {
+    border: 1px solid black;
+}
+
+.td-desa-kel-ortu {
+    border: 1px solid black;
+    text-indent: 130px;
+}
+
+.td-kecamatan-ortu {
+    border: 1px solid black;
+    text-indent: 130px;
+}
+
+.td-kabupaten-ortu {
+    border: 1px solid black;
+    text-indent: 130px;
+}
+
+.td-provinsi-ortu {
+    border: 1px solid black;
+    text-indent: 130px;
+}
+/*Info Data End*/
+
+/*Input Data*/
+input{
+    border-style: hidden;
+    background-color: rgb(254, 253, 249);
+}
+
+.input-nisn {
+    margin-left: 100px;
+}
+
+.input-nisn {
+    margin-left: 122px;
+}
+
+.input-asal-sekolah {
+    margin-left: 75px;
+}
+
+.input-tahun-lulus {
+    margin-left: 80px;
+}
+
+.input-nama-lengkap {
+    margin-left: 63px;
+}
+
+.input-nik {
+    margin-left: 133px;
+}
+
+.input-tempat-tanggal-lahir {
+    margin-left: 11px;
+}
+
+.input-jenis-kelamin {
+    margin-left: 100px;
+}
+
+.input-alamat {
+    margin-left: 114px;
+}
+
+.input-desa-kel {
+    margin-left: 5px;
+}
+
+.input-kecamatan {
+    margin-left: 5px;
+}
+
+.input-kabupaten {
+    margin-left: 8px;
+}
+
+.input-provinsi {
+    margin-left: 23px;
+}
+
+.input-email-aktif {
+    margin-left: 87px;
+}
+
+.input-nomor-kartu-keluarga {
+    margin-left: 14px;
+}
+
+.input-nama-ayah-kandung {
+    margin-left: 25px;
+}
+
+.input-agama-ayah {
+    margin-left: 116px;
+}
+
+.input-pekerjaan-ayah {
+    margin-left: 99px;
+}
+
+.input-nama-ibu-kandung {
+    margin-left: 36px;
+}
+
+.input-agama-ibu {
+    margin-left: 116px;
+}
+
+.input-pekerjaan-ibu {
+    margin-left: 99px;
+}
+
+.input-alamat-orang-tua {
+    margin-left: 43px;
+}
+
+.input-desa-kel-ortu {
+    margin-left: 5px;
+}
+
+.input-kecamatan-ortu {
+    margin-left: 5px;
+}
+
+.input-kabupaten-ortu {
+    margin-left: 8px;
+}
+
+.input-provinsi-ortu {
+    margin-left: 23px;
+}
+/*Input Data End*/
